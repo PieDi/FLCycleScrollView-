@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0029926D1F8B3E4D0007CBC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0029926C1F8B3E4D0007CBC8 /* AppDelegate.m */; };
+		002992701F8B3E4D0007CBC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0029926F1F8B3E4D0007CBC8 /* ViewController.m */; };
+		002992731F8B3E4D0007CBC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002992711F8B3E4D0007CBC8 /* Main.storyboard */; };
+		002992751F8B3E4D0007CBC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002992741F8B3E4D0007CBC8 /* Assets.xcassets */; };
+		002992781F8B3E4D0007CBC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002992761F8B3E4D0007CBC8 /* LaunchScreen.storyboard */; };
+		0029927B1F8B3E4D0007CBC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0029927A1F8B3E4D0007CBC8 /* main.m */; };
+		002992851F8B3E4D0007CBC8 /* FLCycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 002992841F8B3E4D0007CBC8 /* FLCycleScrollViewTests.m */; };
+		002992901F8B3E4D0007CBC8 /* FLCycleScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0029928F1F8B3E4D0007CBC8 /* FLCycleScrollViewUITests.m */; };
+		002992A01F8B3F3A0007CBC8 /* FLCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0029929F1F8B3F3A0007CBC8 /* FLCycleScrollView.m */; };
+		002992A31F8B3FD80007CBC8 /* FLBannerSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 002992A21F8B3FD80007CBC8 /* FLBannerSubView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		002992811F8B3E4D0007CBC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 002992601F8B3E4D0007CBC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 002992671F8B3E4D0007CBC8;
+			remoteInfo = FLCycleScrollView;
+		};
+		0029928C1F8B3E4D0007CBC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 002992601F8B3E4D0007CBC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 002992671F8B3E4D0007CBC8;
+			remoteInfo = FLCycleScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002992681F8B3E4D0007CBC8 /* FLCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0029926B1F8B3E4D0007CBC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0029926C1F8B3E4D0007CBC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0029926E1F8B3E4D0007CBC8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0029926F1F8B3E4D0007CBC8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		002992721F8B3E4D0007CBC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		002992741F8B3E4D0007CBC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		002992771F8B3E4D0007CBC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		002992791F8B3E4D0007CBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0029927A1F8B3E4D0007CBC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		002992801F8B3E4D0007CBC8 /* FLCycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLCycleScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		002992841F8B3E4D0007CBC8 /* FLCycleScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLCycleScrollViewTests.m; sourceTree = "<group>"; };
+		002992861F8B3E4D0007CBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0029928B1F8B3E4D0007CBC8 /* FLCycleScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLCycleScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0029928F1F8B3E4D0007CBC8 /* FLCycleScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLCycleScrollViewUITests.m; sourceTree = "<group>"; };
+		002992911F8B3E4D0007CBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0029929E1F8B3F3A0007CBC8 /* FLCycleScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLCycleScrollView.h; sourceTree = "<group>"; };
+		0029929F1F8B3F3A0007CBC8 /* FLCycleScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLCycleScrollView.m; sourceTree = "<group>"; };
+		002992A11F8B3FD80007CBC8 /* FLBannerSubView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLBannerSubView.h; sourceTree = "<group>"; };
+		002992A21F8B3FD80007CBC8 /* FLBannerSubView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLBannerSubView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		002992651F8B3E4D0007CBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0029927D1F8B3E4D0007CBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002992881F8B3E4D0007CBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0029925F1F8B3E4D0007CBC8 = {
+			isa = PBXGroup;
+			children = (
+				0029926A1F8B3E4D0007CBC8 /* FLCycleScrollView */,
+				002992831F8B3E4D0007CBC8 /* FLCycleScrollViewTests */,
+				0029928E1F8B3E4D0007CBC8 /* FLCycleScrollViewUITests */,
+				002992691F8B3E4D0007CBC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		002992691F8B3E4D0007CBC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				002992681F8B3E4D0007CBC8 /* FLCycleScrollView.app */,
+				002992801F8B3E4D0007CBC8 /* FLCycleScrollViewTests.xctest */,
+				0029928B1F8B3E4D0007CBC8 /* FLCycleScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0029926A1F8B3E4D0007CBC8 /* FLCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				0029929D1F8B3EA00007CBC8 /* FLCycleScrollView */,
+				0029926B1F8B3E4D0007CBC8 /* AppDelegate.h */,
+				0029926C1F8B3E4D0007CBC8 /* AppDelegate.m */,
+				0029926E1F8B3E4D0007CBC8 /* ViewController.h */,
+				0029926F1F8B3E4D0007CBC8 /* ViewController.m */,
+				002992711F8B3E4D0007CBC8 /* Main.storyboard */,
+				002992741F8B3E4D0007CBC8 /* Assets.xcassets */,
+				002992761F8B3E4D0007CBC8 /* LaunchScreen.storyboard */,
+				002992791F8B3E4D0007CBC8 /* Info.plist */,
+				0029927A1F8B3E4D0007CBC8 /* main.m */,
+			);
+			path = FLCycleScrollView;
+			sourceTree = "<group>";
+		};
+		002992831F8B3E4D0007CBC8 /* FLCycleScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				002992841F8B3E4D0007CBC8 /* FLCycleScrollViewTests.m */,
+				002992861F8B3E4D0007CBC8 /* Info.plist */,
+			);
+			path = FLCycleScrollViewTests;
+			sourceTree = "<group>";
+		};
+		0029928E1F8B3E4D0007CBC8 /* FLCycleScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0029928F1F8B3E4D0007CBC8 /* FLCycleScrollViewUITests.m */,
+				002992911F8B3E4D0007CBC8 /* Info.plist */,
+			);
+			path = FLCycleScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		0029929D1F8B3EA00007CBC8 /* FLCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				0029929E1F8B3F3A0007CBC8 /* FLCycleScrollView.h */,
+				0029929F1F8B3F3A0007CBC8 /* FLCycleScrollView.m */,
+				002992A11F8B3FD80007CBC8 /* FLBannerSubView.h */,
+				002992A21F8B3FD80007CBC8 /* FLBannerSubView.m */,
+			);
+			path = FLCycleScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		002992671F8B3E4D0007CBC8 /* FLCycleScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002992941F8B3E4D0007CBC8 /* Build configuration list for PBXNativeTarget "FLCycleScrollView" */;
+			buildPhases = (
+				002992641F8B3E4D0007CBC8 /* Sources */,
+				002992651F8B3E4D0007CBC8 /* Frameworks */,
+				002992661F8B3E4D0007CBC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLCycleScrollView;
+			productName = FLCycleScrollView;
+			productReference = 002992681F8B3E4D0007CBC8 /* FLCycleScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0029927F1F8B3E4D0007CBC8 /* FLCycleScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002992971F8B3E4D0007CBC8 /* Build configuration list for PBXNativeTarget "FLCycleScrollViewTests" */;
+			buildPhases = (
+				0029927C1F8B3E4D0007CBC8 /* Sources */,
+				0029927D1F8B3E4D0007CBC8 /* Frameworks */,
+				0029927E1F8B3E4D0007CBC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002992821F8B3E4D0007CBC8 /* PBXTargetDependency */,
+			);
+			name = FLCycleScrollViewTests;
+			productName = FLCycleScrollViewTests;
+			productReference = 002992801F8B3E4D0007CBC8 /* FLCycleScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0029928A1F8B3E4D0007CBC8 /* FLCycleScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0029929A1F8B3E4D0007CBC8 /* Build configuration list for PBXNativeTarget "FLCycleScrollViewUITests" */;
+			buildPhases = (
+				002992871F8B3E4D0007CBC8 /* Sources */,
+				002992881F8B3E4D0007CBC8 /* Frameworks */,
+				002992891F8B3E4D0007CBC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0029928D1F8B3E4D0007CBC8 /* PBXTargetDependency */,
+			);
+			name = FLCycleScrollViewUITests;
+			productName = FLCycleScrollViewUITests;
+			productReference = 0029928B1F8B3E4D0007CBC8 /* FLCycleScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		002992601F8B3E4D0007CBC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = PieDi;
+				TargetAttributes = {
+					002992671F8B3E4D0007CBC8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					0029927F1F8B3E4D0007CBC8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 002992671F8B3E4D0007CBC8;
+					};
+					0029928A1F8B3E4D0007CBC8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 002992671F8B3E4D0007CBC8;
+					};
+				};
+			};
+			buildConfigurationList = 002992631F8B3E4D0007CBC8 /* Build configuration list for PBXProject "FLCycleScrollView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0029925F1F8B3E4D0007CBC8;
+			productRefGroup = 002992691F8B3E4D0007CBC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				002992671F8B3E4D0007CBC8 /* FLCycleScrollView */,
+				0029927F1F8B3E4D0007CBC8 /* FLCycleScrollViewTests */,
+				0029928A1F8B3E4D0007CBC8 /* FLCycleScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		002992661F8B3E4D0007CBC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002992781F8B3E4D0007CBC8 /* LaunchScreen.storyboard in Resources */,
+				002992751F8B3E4D0007CBC8 /* Assets.xcassets in Resources */,
+				002992731F8B3E4D0007CBC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0029927E1F8B3E4D0007CBC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002992891F8B3E4D0007CBC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002992641F8B3E4D0007CBC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002992A31F8B3FD80007CBC8 /* FLBannerSubView.m in Sources */,
+				002992701F8B3E4D0007CBC8 /* ViewController.m in Sources */,
+				0029927B1F8B3E4D0007CBC8 /* main.m in Sources */,
+				002992A01F8B3F3A0007CBC8 /* FLCycleScrollView.m in Sources */,
+				0029926D1F8B3E4D0007CBC8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0029927C1F8B3E4D0007CBC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002992851F8B3E4D0007CBC8 /* FLCycleScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002992871F8B3E4D0007CBC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002992901F8B3E4D0007CBC8 /* FLCycleScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		002992821F8B3E4D0007CBC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 002992671F8B3E4D0007CBC8 /* FLCycleScrollView */;
+			targetProxy = 002992811F8B3E4D0007CBC8 /* PBXContainerItemProxy */;
+		};
+		0029928D1F8B3E4D0007CBC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 002992671F8B3E4D0007CBC8 /* FLCycleScrollView */;
+			targetProxy = 0029928C1F8B3E4D0007CBC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		002992711F8B3E4D0007CBC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002992721F8B3E4D0007CBC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		002992761F8B3E4D0007CBC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002992771F8B3E4D0007CBC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		002992921F8B3E4D0007CBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		002992931F8B3E4D0007CBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		002992951F8B3E4D0007CBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28TBT495SS;
+				INFOPLIST_FILE = FLCycleScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PieDi.FLCycleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		002992961F8B3E4D0007CBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28TBT495SS;
+				INFOPLIST_FILE = FLCycleScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PieDi.FLCycleScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		002992981F8B3E4D0007CBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28TBT495SS;
+				INFOPLIST_FILE = FLCycleScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PieDi.FLCycleScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLCycleScrollView.app/FLCycleScrollView";
+			};
+			name = Debug;
+		};
+		002992991F8B3E4D0007CBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28TBT495SS;
+				INFOPLIST_FILE = FLCycleScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PieDi.FLCycleScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLCycleScrollView.app/FLCycleScrollView";
+			};
+			name = Release;
+		};
+		0029929B1F8B3E4D0007CBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28TBT495SS;
+				INFOPLIST_FILE = FLCycleScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PieDi.FLCycleScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FLCycleScrollView;
+			};
+			name = Debug;
+		};
+		0029929C1F8B3E4D0007CBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28TBT495SS;
+				INFOPLIST_FILE = FLCycleScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PieDi.FLCycleScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FLCycleScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		002992631F8B3E4D0007CBC8 /* Build configuration list for PBXProject "FLCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002992921F8B3E4D0007CBC8 /* Debug */,
+				002992931F8B3E4D0007CBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002992941F8B3E4D0007CBC8 /* Build configuration list for PBXNativeTarget "FLCycleScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002992951F8B3E4D0007CBC8 /* Debug */,
+				002992961F8B3E4D0007CBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002992971F8B3E4D0007CBC8 /* Build configuration list for PBXNativeTarget "FLCycleScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002992981F8B3E4D0007CBC8 /* Debug */,
+				002992991F8B3E4D0007CBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0029929A1F8B3E4D0007CBC8 /* Build configuration list for PBXNativeTarget "FLCycleScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0029929B1F8B3E4D0007CBC8 /* Debug */,
+				0029929C1F8B3E4D0007CBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 002992601F8B3E4D0007CBC8 /* Project object */;
+}
