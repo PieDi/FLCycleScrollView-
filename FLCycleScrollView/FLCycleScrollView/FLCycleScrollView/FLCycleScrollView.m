@@ -32,7 +32,7 @@ static NSString *subviewClassName;
 
 - (void)initialize{
     self.clipsToBounds = YES;
-    
+    self.backgroundColor = [UIColor grayColor];
     self.needsReload = YES;
     self.pageCount = 0;
     self.isOpenAutoScroll = YES;
@@ -42,12 +42,12 @@ static NSString *subviewClassName;
     _currentPageIndex = 0;
     
     _minimumPageAlpha = 1.0;
-    _autoTime = 2.0;
+    _autoTime = 4.0;
     
     self.visibleRange = NSMakeRange(0, 0);
     
-    self.reusableCells = [[NSMutableArray alloc] initWithCapacity:0];
-    self.cells = [[NSMutableArray alloc] initWithCapacity:0];
+    self.reusableCells = [NSMutableArray array];
+    self.cells = [NSMutableArray array];
     
     self.scrollView = [[UIScrollView alloc] initWithFrame:self.bounds];
     self.scrollView.scrollsToTop = NO;
@@ -61,7 +61,7 @@ static NSString *subviewClassName;
     
     [self addSubview:self.scrollView];
     
-    self.pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(0, self.frame.size.height - 32, Width, 8)];
+    self.pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(0, self.frame.size.height-15, [UIScreen mainScreen].bounds.size.width, 8)];
     [self addSubview:self.pageControl];
     
 }
@@ -83,7 +83,7 @@ static NSString *subviewClassName;
         
         NSTimer *timer = [NSTimer timerWithTimeInterval:self.autoTime target:self selector:@selector(autoNextPage) userInfo:nil repeats:YES];
         self.timer = timer;
-        [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
+        [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
         
     }
     
@@ -105,6 +105,7 @@ static NSString *subviewClassName;
 
 
 - (void)queueReusableCell:(FLBannerSubView *)cell{
+    cell.identifier = @"FLBannerSubView";
     [_reusableCells addObject:cell];
 }
 
@@ -267,6 +268,13 @@ static NSString *subviewClassName;
     return self;
 }
 
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        [self initialize];
+    }
+    return self;
+}
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark -
@@ -323,6 +331,7 @@ static NSString *subviewClassName;
         
         //填充cells数组
         [_cells removeAllObjects];
+        
         for (NSInteger index=0; index<_pageCount; index++)
         {
             [_cells addObject:[NSNull null]];
@@ -333,7 +342,7 @@ static NSString *subviewClassName;
         _scrollView.frame = CGRectMake(0, 0, _pageSize.width, _pageSize.height);
         _scrollView.contentSize = CGSizeMake(_pageSize.width * _pageCount,0);
         CGPoint theCenter = CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds));
-        _scrollView.center = theCenter;
+        _scrollView.center = CGPointMake(theCenter.x, theCenter.y-10);
                 
         if (self.orginPageCount > 1) {
                     
@@ -374,6 +383,7 @@ static NSString *subviewClassName;
         reuseCell.identifier = identifier;
         [_reusableCells addObject:reuseCell];
     }
+    
 }
 
 
@@ -381,6 +391,7 @@ static NSString *subviewClassName;
 
     FLBannerSubView *reuseCell = nil;
     for (FLBannerSubView *cell in _reusableCells) {
+        
         if ([cell.identifier isEqualToString:identifier]) {
             reuseCell = cell;
             break;

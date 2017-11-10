@@ -86,6 +86,7 @@
         bannerView.tag = index;
         bannerView.layer.cornerRadius = 4;
         bannerView.layer.masksToBounds = YES;
+        NSLog(@"重新创建了几个");
     }
     //在这里下载网络图片
     //  [bannerView.mainImageView sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:hostUrlsImg,imageDict[@"img"]]] placeholderImage:[UIImage imageNamed:@""]];

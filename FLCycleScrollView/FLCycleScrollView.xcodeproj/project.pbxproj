@@ -15,8 +15,8 @@
 		0029927B1F8B3E4D0007CBC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0029927A1F8B3E4D0007CBC8 /* main.m */; };
 		002992851F8B3E4D0007CBC8 /* FLCycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 002992841F8B3E4D0007CBC8 /* FLCycleScrollViewTests.m */; };
 		002992901F8B3E4D0007CBC8 /* FLCycleScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0029928F1F8B3E4D0007CBC8 /* FLCycleScrollViewUITests.m */; };
-		002992A01F8B3F3A0007CBC8 /* FLCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0029929F1F8B3F3A0007CBC8 /* FLCycleScrollView.m */; };
 		002992A31F8B3FD80007CBC8 /* FLBannerSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 002992A21F8B3FD80007CBC8 /* FLBannerSubView.m */; };
+		0052CD461FB549EA00338260 /* FLCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0052CD451FB549E900338260 /* FLCycleScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +54,9 @@
 		0029928F1F8B3E4D0007CBC8 /* FLCycleScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLCycleScrollViewUITests.m; sourceTree = "<group>"; };
 		002992911F8B3E4D0007CBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0029929E1F8B3F3A0007CBC8 /* FLCycleScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLCycleScrollView.h; sourceTree = "<group>"; };
-		0029929F1F8B3F3A0007CBC8 /* FLCycleScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLCycleScrollView.m; sourceTree = "<group>"; };
 		002992A11F8B3FD80007CBC8 /* FLBannerSubView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLBannerSubView.h; sourceTree = "<group>"; };
 		002992A21F8B3FD80007CBC8 /* FLBannerSubView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLBannerSubView.m; sourceTree = "<group>"; };
+		0052CD451FB549E900338260 /* FLCycleScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLCycleScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				0029929E1F8B3F3A0007CBC8 /* FLCycleScrollView.h */,
-				0029929F1F8B3F3A0007CBC8 /* FLCycleScrollView.m */,
+				0052CD451FB549E900338260 /* FLCycleScrollView.m */,
 				002992A11F8B3FD80007CBC8 /* FLBannerSubView.h */,
 				002992A21F8B3FD80007CBC8 /* FLBannerSubView.m */,
 			);
@@ -283,10 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0052CD461FB549EA00338260 /* FLCycleScrollView.m in Sources */,
 				002992A31F8B3FD80007CBC8 /* FLBannerSubView.m in Sources */,
 				002992701F8B3E4D0007CBC8 /* ViewController.m in Sources */,
 				0029927B1F8B3E4D0007CBC8 /* main.m in Sources */,
-				002992A01F8B3F3A0007CBC8 /* FLCycleScrollView.m in Sources */,
 				0029926D1F8B3E4D0007CBC8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
